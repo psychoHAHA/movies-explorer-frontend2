@@ -1,10 +1,9 @@
 import React, { useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import '../Auth/Auth.css'
 import logo from '../../images/logo.svg'
 
 export default function Register({ onRegister }) {
-  const navigate = useNavigate()
 
   const [formValue, setFormValue] = useState({
     name: '',
